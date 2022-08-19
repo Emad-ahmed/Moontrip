@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Moon Trip</title>
+    <style>
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">MOONTRIP</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Discovery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tour</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <div id="searchview">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </div>
+                <div class="mt-2 text-white">
+                  <i
+                    class="fa-solid fa-magnifying-glass ms-5 me-5"
+                    id="btn"
+                  ></i>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="shuimg">
+        <img src="Image/shut.png" alt="" />
+      </div>
+      <div class="container moontext">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>MOON TRIP</h1>
+            <p>
+              Discover moon trip and get your booking now <br />
+              every students can join with moon trip and
+            </p>
+            <button class="cbtn">GET START</button>
+
+            <div class="d-flex mt-4 text-white">
+              <i class="fa-solid fa-location-pin me-3 fa-1x"></i>
+              <p class="me-3">earth/earth</p>
+              <p>0 km</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="Image/a.png" alt="" class="myimg" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="plimg">
+      <img src="Image/planets.png" alt="" />
+    </div>
+
+    <div class="nebg">
+      <img src="Image/s2.png" alt="" class="img2" />
+      <div class="row">
+        <div class="col-lg-6 imgt">
+          <img src="Image/ro.png" alt="" class="myimg1" />
+        </div>
+        <div class="col-lg-6 alltext">
+          <h1>
+            To space & <br />
+            back safety
+          </h1>
+          <p>starting at only</p>
+          <h4>$25,999</h4>
+          <button class="cbtn mt-3 pe-5 ps-5">GET START</button>
+          <div class="d-flex mainp">
+            <p>01</p>
+            <p>02</p>
+            <p>03</p>
+            <p>04</p>
+            <p>05</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container allcard">
+      <div class="row">
+        <div class="col-lg-3">
+          <p>From</p>
+          <div class="dropdown">
+            <span
+              >SELECT PICKUP POINT<i class="fa-solid fa-angle-down"></i
+            ></span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p>To</p>
+          <div class="dropdown">
+            <span
+              >SELECT Destination <i class="fa-solid fa-angle-down"></i
+            ></span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <p>Passengers</p>
+          <div class="dropdown">
+            <span>2 ADULTS <i class="fa-solid fa-angle-down"></i></span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p>Date</p>
+          <div class="dropdown">
+            <span
+              >20 AUG 2022 - 5 SEP 2022 <i class="fa-solid fa-angle-down"></i
+            ></span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 btn">
+          <button>Book Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="nebg2">
+      <div class="conatainer">
+        <h1 class="text-center mt-5 text-white fw-bold">Lets Go With Us</h1>
+        <div class="row m-auto mt-5 allv">
+          <div class="col-lg-3">
+            <div class="card" style="width: 18rem">
+              <img src="Image/moon.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Moon Trip With 10 Students</h5>
+                <p class="card-text">
+                  Lets go with us and explore moon. you will see the beautiful
+                  galaxy and explore your mind
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card" style="width: 18rem">
+              <img src="Image/moon1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Moon Trip With 20 Students</h5>
+                <p class="card-text">
+                  Lets go with us and explore moon. you will see the beautiful
+                  galaxy and explore your mind
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card" style="width: 18rem">
+              <img src="Image/monn2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Moon Trip With 30 Students</h5>
+                <p class="card-text">
+                  Lets go with us and explore moon. you will see the beautiful
+                  galaxy and explore your mind
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nebg1">
+      <div class="row">
+        <div class="col-lg-6 imgt1">
+          <img src="Image/rocket.png" alt="" class="myimg2" />
+        </div>
+        <div class="col-lg-6 alltext1">
+          <h1>We have the best space shuttle in the earth</h1>
+          <p>
+            Discover moon trip and get your booking now. <br />
+            Every students can join with Moon trip and
+          </p>
+
+          <button class="cbtn mt-3">SEE WHO YOU ARE</button>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="js/nav.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      document.getElementById("searchview").style.display = "none";
+      $(document).ready(function () {
+        $("#btn").click(function () {
+          $("#searchview").toggle();
+        });
+      });
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    -->
+  </body>
+</html>
