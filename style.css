@@ -8,8 +8,7 @@
 }
 
 header {
-  position: absolute;
-  width: 99%;
+  width: 100%;
   background-image: url("Image/main.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -225,5 +224,9 @@ nav a {
 .allv .card img {
   width: 18rem;
   height: 18rem;
+}
+
+.mainb p {
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */

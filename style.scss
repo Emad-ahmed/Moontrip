@@ -10,8 +10,8 @@
 
 header
 {
-    position: absolute;
-    width: 99%;
+    
+    width: 100%;
     background-image: url('Image/main.jpg');;
     background-repeat: no-repeat;
     background-position: center;
@@ -253,7 +253,7 @@ nav a{
     margin-top: 10rem;
     color: white;
     padding-left: 4rem;
-
+    
 }
 
 
@@ -267,3 +267,8 @@ nav a{
     width: 18rem;
     height: 18rem;
 }
+
+.mainb p{
+    font-size: 15px;
+}
+
